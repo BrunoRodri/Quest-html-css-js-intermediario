@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="./src/css/style.css">
+<link rel="stylesheet" href="./src/css/reset.css">
+
+  <title>QUEST HTML-CSS-JS INTERMEDIÁRIO</title>
+</head>
+<body>
+  <main>
+    <div class="info">
+      <h1 class="titulo">
+        FICOU COM DÚVIDA? <br>NOS MANDE UMA MENSAGEM!
+      </h1>
+      <p class="subtitulo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+    </div>
+
+    <form action="#" class="formulario">
+      <input type="text" name="nome" id="nome" placeholder="Nome completo *" class=" input">
+      <p class="erro ok" id="erro-nome">campo obrigatório</p>
+      <input type="text" name="email" id="email" placeholder="Email *" class=" input">
+      <p class="erro ok" id="erro-email">campo obrigatório</p>
+      <input type="text" name="telefone" id="telefone" placeholder="Telefone *" class=" input">
+      <p class="erro ok" id="erro-telefone">campo obrigatório</p>
+      <textarea name="mensagem" id="mensagem" placeholder="Mensagem *" class=" input"></textarea>
+      <p class="erro ok" id="erro-mensagem">campo obrigatório</p>
+      <p class="obrigatorio">*campos obrigatórios</p>
+
+      <button class="botao-enviar" id="botao">Enviar</button>
+    </form>
+
+
+  </main>
+
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
